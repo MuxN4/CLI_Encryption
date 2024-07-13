@@ -107,7 +107,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # Acknowledgements
 
-This tool uses the cryptography library. For more information, visit the cryptography documentation.
+This tool uses the `cryptography` library. For more information, visit the [cryptography documentation](https://cryptography.io/en/latest/).
 
 # Conclusion
 
