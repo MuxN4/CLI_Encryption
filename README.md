@@ -12,12 +12,12 @@ Encryptor is a Command Line Interface (CLI) tool for encrypting and decrypting f
 - 📂 Encrypt files
 - 📂 Decrypt files
 
-## Requirements
+## Requirements 📝
 
 - Python 3.x
 - `cryptography` library
 
-## Installation
+## Installation 💾
 
 1. Clone the repository or download the `encryptor.py` file to your local machine.
 2. Install the required packages using `pip`:
@@ -29,7 +29,7 @@ Encryptor is a Command Line Interface (CLI) tool for encrypting and decrypting f
 
 Run the encryptor.py script with the appropriate command and arguments. Below are the available commands:
 
-## Generate a New Encryption Key
+## Generate a New Encryption Key 🔑
     ```sh
     python encryptor.py keygen <keyfile>
     ```
@@ -40,7 +40,7 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
     ```sh
     python encryptor.py keygen mykey.key
     ```
-## Encrypt a Message
+## Encrypt a Message ✉️
     ```sh
     python encryptor.py encrypt_message <keyfile> <message>
     ```
@@ -52,7 +52,7 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
     ```sh
     python encryptor.py encrypt_message mykey.key "Hello, World!"
     ```
-## Decrypt a Message
+## Decrypt a Message 🔓
 
     ```sh
     python encryptor.py decrypt_message <keyfile> <message>
@@ -66,7 +66,7 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
     python encryptor.py decrypt_message mykey.key "<encrypted_message>"
     ```
 
-## Encrypt a File
+## Encrypt a File 📂
 
     ```sh
     python encryptor.py encrypt_file <keyfile> <inputfile> <outputfile>
@@ -80,7 +80,7 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
     ```sh
     python encryptor.py encrypt_file mykey.key input.txt encrypted.txt
     ```
-## Decrypt a File
+## Decrypt a File 📂
 
     ```sh
     python encryptor.py decrypt_file <keyfile> <inputfile> <outputfile>
@@ -95,7 +95,7 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
     python encryptor.py decrypt_file mykey.key encrypted.txt decrypted.txt
     ```
 
-# Note
+# Note 🗒️
   - Ensure that `<message>` is enclosed in double quotes when encrypting messages.
   - Replace placeholders `<keyfile>`, `<inputfile>`, and `<outputfile>` with actual file    paths as needed.
   - For more detailed instructions, refer to the comments in the `encryptor.py` script or use the `-h` option (`python encryptor.py -h`) for command-line help.
@@ -109,7 +109,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 This tool uses the `cryptography` library. For more information, visit the [cryptography documentation](https://cryptography.io/en/latest/).
 
-# Conclusion 
+# Conclusion 🏁
 
 This README provides an overview of the CLI tool, instructions for installation and usage, and details about the available commands. Adjust any sections as necessary to fit your specific needs or project requirements.
 
