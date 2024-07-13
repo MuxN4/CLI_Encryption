@@ -102,7 +102,7 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
 
 By strictly following these usage examples, you can effectively encrypt and decrypt messages and files using the Encryptor CLI tool.
 
-# License
+# License 📄
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 # Acknowledgements
