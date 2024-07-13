@@ -1,16 +1,16 @@
-# CLI-Encryption
+# CLI-Encryption 🔐
 
 ## Overview
 
 Encryptor is a Command Line Interface (CLI) tool for encrypting and decrypting files or messages. It uses the `cryptography` library to provide secure encryption algorithms.
 
-## Features
+## Features✨
 
-- Generate a new encryption key
-- Encrypt messages
-- Decrypt messages
-- Encrypt files
-- Decrypt files
+- 🔑 Generate a new encryption key
+- ✉️ Encrypt messages
+- 🔓 Decrypt messages
+- 📂 Encrypt files
+- 📂 Decrypt files
 
 ## Requirements
 
@@ -109,7 +109,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 This tool uses the `cryptography` library. For more information, visit the [cryptography documentation](https://cryptography.io/en/latest/).
 
-# Conclusion
+# Conclusion 
 
 This README provides an overview of the CLI tool, instructions for installation and usage, and details about the available commands. Adjust any sections as necessary to fit your specific needs or project requirements.
 
