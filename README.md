@@ -22,28 +22,28 @@ Encryptor is a Command Line Interface (CLI) tool for encrypting and decrypting f
 1. Clone the repository or download the `encryptor.py` file to your local machine.
 2. Install the required packages using `pip`:
 
-   ```sh
+   bash
    pip install cryptography
-   ```
+   
 # Usage
 
 Run the encryptor.py script with the appropriate command and arguments. Below are the available commands:
 
 ## Generate a New Encryption Key 🔑
-    ```sh
+    sh
     python encryptor.py keygen <keyfile>
-    ```
+    
 `<keyfile>`: The file to save the generated encryption key.
 
 ## Example:
 
-    ```sh
+    sh
     python encryptor.py keygen mykey.key
-    ```
+    
 ## Encrypt a Message ✉️
-    ```sh
+    sh
     python encryptor.py encrypt_message <keyfile> <message>
-    ```
+    
 `<keyfile>`: The file containing the encryption key.
 `<message>`: The message to encrypt (enclose the message in double quotes).
 
