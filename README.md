@@ -22,7 +22,7 @@ Encryptor is a Command Line Interface (CLI) tool for encrypting and decrypting f
 1. Clone the repository or download the `encryptor.py` file to your local machine.
 2. Install the required packages using `pip`:
 
-   bash
+   ```sh
    pip install cryptography
    
 # Usage
@@ -49,51 +49,51 @@ Run the encryptor.py script with the appropriate command and arguments. Below ar
 
 ## Example:
 
-    ```sh
+    sh
     python encryptor.py encrypt_message mykey.key "Hello, World!"
-    ```
+    
 ## Decrypt a Message 🔓
 
-    ```sh
+    sh
     python encryptor.py decrypt_message <keyfile> <message>
-    ```
+    
 `<keyfile>`: The file containing the encryption key.
 `<message>`: The encrypted message to decrypt (enclose the message in double quotes).
 
 ## Example:
 
-    ```sh
+    sh
     python encryptor.py decrypt_message mykey.key "<encrypted_message>"
-    ```
+    
 
 ## Encrypt a File 📂
 
-    ```sh
+    sh
     python encryptor.py encrypt_file <keyfile> <inputfile> <outputfile>
-    ```
+    
 `<keyfile>`: The file containing the encryption key.
 `<inputfile>`: The input file to encrypt.
 `<outputfile>`: The output file to save the encrypted data.
 
 ## Example:
 
-    ```sh
+    sh
     python encryptor.py encrypt_file mykey.key input.txt encrypted.txt
-    ```
+    
 ## Decrypt a File 📂
 
-    ```sh
+    sh
     python encryptor.py decrypt_file <keyfile> <inputfile> <outputfile>
-    ```
+    
 `<keyfile>`: The file containing the encryption key.
 `<inputfile>`: The input file to decrypt.
 `<outputfile>`: The output file to save the decrypted data.
 
 ## Example:
 
-    ```sh
+    sh
     python encryptor.py decrypt_file mykey.key encrypted.txt decrypted.txt
-    ```
+    
 
 # Note 🗒️
   - Ensure that `<message>` is enclosed in double quotes when encrypting messages.
